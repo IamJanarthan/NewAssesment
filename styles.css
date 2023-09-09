@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: aliceblue;
+}
+.container{
+    height: 550px;
+    width:100%;
+    border: 5px solid black;
+    background-image: url(./images/smile.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+h2{
+    display: inline-block;
+    margin: 15px 18px;
+    
+    
+}
+.navbar,li{
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-left: 30px;
+    margin: 10px 15px;
+    font-weight: 900;
+}
